@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的示例网站</title>
+  <style>
+    body { margin:0; font-family:Arial, sans-serif; }
+    header { background:#004080; color:#fff; padding:15px; text-align:center; }
+    nav { background:#0066cc; display:flex; flex-wrap:wrap; justify-content:center; }
+    nav a { color:#fff; padding:14px 20px; text-decoration:none; }
+    nav a:hover { background:#004080; }
+    .banner { width:100%; height:200px; background:url('https://picsum.photos/1200/400') center/cover no-repeat; }
+    .content { display:flex; flex-wrap:wrap; padding:20px; }
+    .card { flex:1 1 300px; margin:10px; padding:20px; border:1px solid #ccc; border-radius:8px; background:#f9f9f9; }
+    footer { background:#333; color:#fff; text-align:center; padding:20px; margin-top:20px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>欢迎来到我的网站</h1>
+    <p>这是一个可以在移动端和桌面端打开的示例页面</p>
+  </header>
+
+  <nav>
+    <a href="#">首页</a>
+    <a href="#">产品</a>
+    <a href="#">解决方案</a>
+    <a href="#">新闻</a>
+    <a href="#">关于我们</a>
+    <a href="#">联系</a>
+  </nav>
+
+  <div class="banner"></div>
+
+  <section class="content">
+    <div class="card">
+      <h2>功能一</h2>
+      <p>支持响应式布局，在手机上也能正常显示。</p>
+    </div>
+    <div class="card">
+      <h2>功能二</h2>
+      <p>使用 Flexbox 自动调整卡片排列。</p>
+    </div>
+    <div class="card">
+      <h2>功能三</h2>
+      <p>可以轻松扩展为企业官网或个人主页。</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 我的示例网站 | 联系电话：0512-12345678</p>
+  </footer>
+</body>
+</html>
