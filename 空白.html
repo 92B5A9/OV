@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>示例网站布局</title>
+  <style>
+    body { margin:0; font-family:Arial, sans-serif; }
+    header { background:#004080; color:#fff; padding:15px; text-align:center; }
+    nav { background:#0066cc; display:flex; justify-content:center; }
+    nav a { color:#fff; padding:14px 20px; text-decoration:none; }
+    nav a:hover { background:#004080; }
+    .banner { width:100%; height:300px; background:url('banner.jpg') center/cover no-repeat; }
+    .content { display:flex; flex-wrap:wrap; padding:20px; }
+    .card { flex:1 1 300px; margin:10px; padding:20px; border:1px solid #ccc; border-radius:8px; background:#f9f9f9; }
+    footer { background:#333; color:#fff; text-align:center; padding:20px; margin-top:20px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>苏州数美示例站</h1>
+    <p>提供智慧校园与信息化解决方案</p>
+  </header>
+
+  <nav>
+    <a href="#">首页</a>
+    <a href="#">产品中心</a>
+    <a href="#">解决方案</a>
+    <a href="#">新闻动态</a>
+    <a href="#">关于我们</a>
+    <a href="#">联系我们</a>
+  </nav>
+
+  <div class="banner"></div>
+
+  <section class="content">
+    <div class="card">
+      <h2>智慧校园</h2>
+      <p>打造数字化校园管理平台，提升教学与管理效率。</p>
+    </div>
+    <div class="card">
+      <h2>信息化解决方案</h2>
+      <p>为教育机构提供一体化信息化建设服务。</p>
+    </div>
+    <div class="card">
+      <h2>新闻动态</h2>
+      <p>了解最新的行业资讯与公司动态。</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 苏州数美示例站 | 地址：江苏省苏州市 | 电话：0512-12345678</p>
+  </footer>
+</body>
+</html>
